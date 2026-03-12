@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="http://localhost:8080/loginform" method="post">
+      <legend>Students Registration Form</legend>
+      <label>Name:</label>
+      <input
+        type="text"
+        name="name"
+        placeholder="Enter your name"
+        required
+      /><br />
+      <label>Mobile Number:</label>
+      <input
+        type="tel"
+        name="mobile"
+        placeholder="Enter your mobile number"
+      /><br />
+      <label>Email:</label>
+      <input type="email" name="email" placeholder="Enter your email" /><br />
+      <label>Father's Name:</label>
+      <input
+        type="text"
+        name="fathersname"
+        placeholder="Enter yours father's name"
+        required
+      /><br />
+      <label>Mother's Name:</label>
+      <input
+        type="text"
+        name="mothersname"
+        placeholder="Enter yours mother's name"
+        required
+      /><br />
+
+      <label>DOB:</label>
+      <input type="date" name="dob" /><br />
+
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="M" id="male" /><label for="male"
+        >Male</label
+      >
+      <input type="radio" name="gender" value="F" id="female" /><label
+        for="female"
+        >Female</label
+      ><br />
+
+      <label for="">Students Photo</label>
+      <input type="file" name="" id="" />
+      <br />
+      <label>Selecte branch:</label>
+      <input type="checkbox" name="branch" value="cse" id="cse" /><label
+        for="cse"
+        >CSE</label
+      >
+      <input type="checkbox" name="branch" value="it" id="it" /><label for="it"
+        >IT</label
+      >
+      <input type="checkbox" name="branch" value="ece" id="ece" /><label
+        for="ece"
+        >ECE</label
+      >
+      <input type="checkbox" name="branch" value="civil" id="civil" /><label
+        for="civil"
+        >Civil</label
+      >
+      <br />
+      <label for="address">Address</label>
+      <textarea name="address" id="address"></textarea>
+    </form>
+  </body>
+</html>

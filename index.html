@@ -1,22 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="">
+    <meta name="robots" content="noindex">  
+    <link rel="stylesheet" href="./style.css">
+    <meta name="">
+    <title>BPUT</title>
+  </head>
+  <body>
     <!-- <h1>Hello World!</h1>
     <h2>Hello World!</h2>
     <h3>Hello World!</h3>
     <h4>Hello World!</h4>
     <h5>Hello World!</h5>
-    <h6>Hello World!</h6> -->
-    <!-- <p>Lorem ipsum dolor <b>Nabin</b> sit amet consectetur adipisicing elit. <em>Dignissimos dolor</em>, modi autem sequi sint vero facilis nihil reiciendis ipsa porro nesciunt sed velit quidem totam quaerat <mark>commodi excepturi doloremque</mark> architecto!
-    Eveniet, aut. Ab <del>beatae tenetur</del> at fuga voluptatem, <ins>sunt architecto</ins> cum repudiandae quo pariatur <strong>voluptates</strong> et accusantium. <i>Itaque,</i> aperiam, enim <sup>consequatur </sup>molestiae sint pariatur, excepturi <sub>cupiditate eum </sub>sequi illo autem!</p> -->
+    <h6>Hello World!</h6>
+    <p>
+      Lorem ipsum dolor <b>Nabin</b> sit amet consectetur adipisicing elit.
+      <em>Dignissimos dolor</em>, modi autem sequi sint vero facilis nihil
+      reiciendis ipsa porro nesciunt sed velit quidem totam quaera
+      <mark>commodi excepturi doloremque</mark> architecto! Eveniet, aut. Ab
+      <del>beatae tenetur</del> at fuga voluptatem,
+      <ins>sunt architecto</ins> cum repudiandae quo pariatur
+      <strong>voluptates</strong> et accusantium. <i>Itaque,</i> aperiam, enim
+      <sup>consequatur </sup>molestiae sint pariatur, excepturi
+      <sub>cupiditate eum </sub>sequi illo autem!
+    </p> -->
+<!-- 
+    <blockquote cite="https://google.com">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis voluptas
+      id nulla dolorem architecto deserunt enim a, modi cupiditate laborum
+      reprehenderit suscipit quibusdam iste quasi ea ad saepe ducimus totam.
+      Repellat, incidunt nobis porro ratione consequatur maiores dolor. Placeat
+      odio, sint repudiandae quisquam, autem amet possimus fugiat alias
+      delectus, reiciendis magni rem consequatur nam fugit quis dolorum a quos
+      sunt!
+    </blockquote>
 
-    <img src="./image.png" alt="image">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLvTZtff-IWdWpCVHqMw3u1BVI49MAwPO2cw&s" alt="This is Blank">
+    <p>Lorem ipsum dolor sit amet.</p>
+    <pre>Lorem ipsum dolor sit                        amet consectetur.</pre>
+    <abbr title="Structured Quary Language">SQL</abbr>
 
-</body>
+    <img src="./image.png" alt="image" />
+    <img
+      src="https://m.media-amazon.com/images/I/61xfdABZkeL._AC_UF350,350_QL50_.jpg"
+      alt="This is Blank"
+    />
+    -->
+    <!-- <video controls width="200px">
+      <source src="./example.mp4" type="video/mp4" />
+    </video> -->
+    <img src="./gun.png" alt="">
+    <marquee behavior="" scrollamount="100" direction="right" style="position: absolute; top: -10px;">
+      <img src="./bullet.png" width="150px" alt="">
+    </marquee>
+    <form action="http://localhost:8080/loginform" method="post">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label>Name:</label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+          required
+        /><br />
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" /><br />
+
+        <label>Password:</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter your password"
+        /><br />
+
+        <label>Mobile Number:</label>
+        <input
+          type="tel"
+          name="mobile"
+          placeholder="Enter your mobile number"
+        /><br />
+
+        <label>DOB:</label>
+        <input type="date" name="dob" /><br />
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="M" id="male" /><label
+          for="male"
+          >Male</label
+        >
+        <input type="radio" name="gender" value="F" id="female" /><label
+          for="female"
+          >Female</label
+        ><br />
+
+        <label>Skills:</label>
+        <input type="checkbox" name="skills" value="Java" id="java" /><label
+          for="java"
+          >Java</label
+        >
+        <input type="checkbox" name="skills" value="Python" id="python" /><label
+          for="python"
+          >Python</label
+        ><br />
+
+        <label>Country:</label>
+        <select name="country">
+          <option value="ind">India</option>
+          <option value="uae">Dubai</option></select
+        ><br />
+
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </fieldset>
+    </form>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14772.033297286582!2d84.8235438!3d22.23976295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a201965a697e52b%3A0x986054cfcf1984ae!2sPLUTONE!5e0!3m2!1sen!2sin!4v1773319891514!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </body>
 </html>

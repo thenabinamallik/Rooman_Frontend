@@ -1,0 +1,9 @@
+@keyframes gun {
+    0%{
+        rotate:2 deg;
+    }
+    100%{
+        rotate: -2 deg;
+    }
+
+}
