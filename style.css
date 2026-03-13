@@ -1,9 +1,43 @@
-@keyframes gun {
-    0%{
-        rotate:2 deg;
-    }
-    100%{
-        rotate: -2 deg;
-    }
+body {
+  background: #00031b;
+  color: white;
+  font-family: "Franklin Gothic Medium";
+}
+/* 
+h1,
+h3 {
+  color: yellow;
+  background: red;
+}
+input,
+h2 {
+  background-color: orchid;
+  color: rgb(146, 146, 146);
+}
+.box2{
+  color: yellow;
+}
+.box {
+  background: #921717;
+  color: green;
+} */
+/* 
+.box.box2{
+  color: red;
+} */
 
+/* .bg1{
+background-color: lime;
+}
+
+.font1{
+  color: red;
+} */
+/* 
+.web p {
+  color: green;
+} */
+
+#outer.inner{
+  color: red;
 }
