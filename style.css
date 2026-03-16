@@ -1,5 +1,5 @@
 body {
-  background: #00031b;
+  background: #000000;
   color: white;
   font-family: "Franklin Gothic Medium";
 }
@@ -38,6 +38,28 @@ background-color: lime;
   color: green;
 } */
 
-#outer.inner{
+/* #outer.inner{
   color: red;
+} */
+
+/* .div1{
+  background-color: blueviolet;
+  color: rgb(33, 5, 58);
 }
+.div2{
+  background-color: rgb(169, 79, 253);
+  color: rgb(2, 1, 3);
+}
+.div3{
+  background-color: rgb(205, 152, 255);
+  color: rgb(6, 2, 9);
+} */
+
+/* .a1, .b1{
+  color: red;
+} */
+
+/* .outside{
+  color: black;
+  background: powderblue;
+} */
