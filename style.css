@@ -1,8 +1,8 @@
-body {
+/* body {
   background: #000000;
   color: white;
   font-family: "Franklin Gothic Medium";
-}
+} */
 /* 
 h1,
 h3 {
@@ -63,3 +63,16 @@ background-color: lime;
   color: black;
   background: powderblue;
 } */
+
+.outer{
+  background: green;
+  height: 200px;
+  width:200px;
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+  background: red;
+  margin: 100px;
+}
